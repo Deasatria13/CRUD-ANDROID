@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#FFFFFF"
+    tools:context=".input_barang">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:text="@string/judul_create_activity"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="220dp"
+        android:textColor="#000000"
+        android:textSize="16sp"
+        android:textStyle="bold"/>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <EditText
+            android:id="@+id/textNamaBarang"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:hint="Nama Barang"
+            android:layout_marginTop="250dp"
+            android:textColor="#000000"
+            android:textColorHint="#000000"
+            />
+
+        <EditText
+            android:id="@+id/textHargaBarang"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:hint="Harga Barang"
+            android:textColor="#000000"
+            android:textColorHint="#000000"
+            />
+
+        <EditText
+            android:id="@+id/textStokBarang"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:hint="Stok Barang"
+            android:textColor="#000000"
+            android:textColorHint="#000000"
+            />
+        
+        <EditText
+            android:id="@+id/create_diskon_barang"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:hint="@string/label_diskon_barang"
+            android:inputType="number"/>
+
+        <LinearLayout
+            android:layout_marginTop="20dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/btnSimpan"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:text="Simpan"
+                android:textStyle="bold"
+                android:onClick="Simpan"
+                android:textColor="#000"/>
+
+
+            
+            <Button
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:onClick="lihatDaftar"
+                android:text="@string/label_button_lihat"/>
+        </LinearLayout>
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/label_button_keluar"
+            android:onClick="keluarApp"/>
+
+    </LinearLayout>
+
+</RelativeLayout>

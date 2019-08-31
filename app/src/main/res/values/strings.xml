@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">barang_Dagang</string>
+    <string name="judul_create_activity">Tambah Barang Baru</string>
+    <string name="judul_readAll_activity">Daftar Barang Dagang</string>
+    <string name="label_nama_barang">Nama Barang</string>
+    <string name="label_harga_barang">Harga Barang</string>
+    <string name="label_stok_barang">Stok Barang</string>
+    <string name="label_diskon_barang">Diskon</string>
+    <string name="label_button_simpan">Simpan</string>
+    <string name="label_button_lihat">Lihat Daftar</string>
+    <string name="label_button_keluar">Keluar</string>
+    <string name="label_button_kembali">Kembali</string>
+</resources>
