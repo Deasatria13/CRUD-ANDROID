@@ -1,2 +1,2 @@
 # CRUD-ANDROID
-CRUD Android dengan menggunakan Database SQL Server
+CRUD Android dengan menggunakan Database SQLite
